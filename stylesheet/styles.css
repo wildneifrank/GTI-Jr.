@@ -1,0 +1,40 @@
+h4 {
+    color: red;
+}
+.azul {
+    color: blue;
+}
+
+a{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+button{
+    color: peru;
+}
+
+p{
+    color: black;
+}
+
+#cor{
+    color: black;
+}
+
+div{
+    color: brown;
+}
+.herança{
+    color: grey;
+}
+div.herança p{
+    color: blue;
+}
+
+div.herança p.herança1{
+    color: hotpink;
+}
