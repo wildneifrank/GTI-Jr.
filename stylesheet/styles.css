@@ -7,14 +7,33 @@
     color: gray;
 }
 
-.bg-dark{
+.bg-membro1{
     width: 180px;
     height: 180px;
     border-radius: 100%;
-    background-position: 50% 50%;
     padding: 0%;
-    background-color: yellow !important;
+    background-image: url(/img/member1.jpg) !important;
+    background-size: cover;
 }
+
+.bg-membro2{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    padding: 0%;
+    background-image: url(/img/member2.jpeg) !important;
+    background-size: cover;
+}
+
+.bg-membro3{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    padding: 0%;
+    background-image: url(/img/member3.jpeg) !important;
+    background-size: cover;
+}
+
 
 .bg-secondary{
     background-color: #f6f8fa !important;
@@ -28,11 +47,17 @@ table{
     margin: 5px 50px;
 }
 
+td div{
+    background-color: white;
+}
+
+
 
 td{
     padding: 13px;
     padding-bottom: 0;
     padding-top: 0px;
+    padding: tran;
 }
 
 .ajuste img{
@@ -41,8 +66,8 @@ td{
 }
 
 
-.circular img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
+.icone img{
+    max-width: 50px;
+    max-height: 50px;
 }
+
